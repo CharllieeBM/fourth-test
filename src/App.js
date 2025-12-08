@@ -76,7 +76,27 @@ export default function App() {
           }}
         >
           Search
-        </button>
+        </button>{" "}
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://github.com/CharllieeBM/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            Charllotte Blackwell-Maleshkov
+          </a>{" "}
+          and is open-sourced on{" "}
+          <a
+            href="https://github.com/CharllieeBM/react-weather-directory"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+          .
+        </footer>
       </form>
 
       {loading && (
